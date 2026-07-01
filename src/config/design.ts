@@ -1,0 +1,82 @@
+export const designConfig = {
+  colors: {
+    brand: {
+      forest: "#1a3300",
+      yellow: "#ffe95c",
+      cream: "#fcfaf5",
+      pencil: "#b6b6b6",
+      whisper: "#f1f1f1",
+    },
+    accent: {
+      teal: "#a8e5e5",
+      mint: "#d5f5c2",
+      blush: "#f6d0ff",
+      terracotta: "#cb5521",
+    },
+  },
+  fonts: {
+    heading: "var(--font-bricolage-grotesque)",
+    body: "var(--font-inter)",
+    mono: "var(--font-roboto-mono)",
+  },
+  typeScale: {
+    micro: { size: "11px", lineHeight: 1.3 },
+    caption: { size: "14px", lineHeight: 1.5 },
+    bodySm: { size: "16px", lineHeight: 1.5 },
+    body: { size: "18px", lineHeight: 1.5 },
+    bodyLg: { size: "20px", lineHeight: 1.38 },
+    subheading: { size: "28px", lineHeight: 1.25 },
+    headingSm: { size: "40px", lineHeight: 1.1 },
+    heading: { size: "55px", lineHeight: 1, letterSpacing: "2.2px" },
+    headingLg: { size: "66px", lineHeight: 1, letterSpacing: "3.3px" },
+    display: { size: "90px", lineHeight: 1, letterSpacing: "4.5px" },
+  },
+  spacing: {
+    base: 8,
+    section: {
+      default: "py-16 md:py-20 lg:py-24",
+      compact: "py-12 md:py-16 lg:py-20",
+      spacious: "py-20 md:py-24 lg:py-32",
+    },
+    container: "mx-auto w-full max-w-[1200px] px-4 sm:px-6 lg:px-8",
+    gap: {
+      section: "64px",
+      element: "16px",
+      card: "24px",
+    },
+  },
+  radius: {
+    none: "0",
+    sm: "3px",
+    md: "6px",
+    lg: "12px",
+    xl: "16px",
+    full: "9999px",
+    nav: "16px",
+    tags: "9999px",
+    cards: "12px",
+    buttons: "6px",
+  },
+  shadows: {
+    subtle: "rgba(0, 0, 0, 0.05) 0px 1px 2px 0px",
+    subtle2:
+      "rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.1) 0px 1px 2px -1px",
+    xl: "rgba(255, 235, 90, 0.01) 0px 527px 211px 0px, rgba(255, 235, 90, 0.05) 0px 297px 178px 0px, rgba(255, 235, 90, 0.09) 0px 132px 132px 0px, rgba(255, 235, 90, 0.1) 0px 33px 72px 0px",
+  },
+  zIndex: {
+    base: 0,
+    dropdown: 10,
+    sticky: 20,
+    navbar: 30,
+    modal: 40,
+    popover: 50,
+    tooltip: 60,
+    toast: 70,
+  },
+  layout: {
+    maxWidth: "1200px",
+    sectionGap: "64px",
+    cardPadding: "24px",
+    elementGap: "16px",
+  },
+} as const;
