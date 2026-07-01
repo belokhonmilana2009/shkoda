@@ -2,7 +2,7 @@ export const siteConfig = {
   name: "ШКоДа",
   shortName: "ШКоДа",
   description: "Детский образовательный центр",
-  url: "https://belokhonmilana2009.github.io/shkoda",
+  url: "https://shkoda.vercel.app",
   locale: "ru-RU",
   ogImage: "/images/og.jpg",
   logo: "/images/logo.jpg",
