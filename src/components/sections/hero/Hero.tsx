@@ -100,7 +100,7 @@ export default function Hero({ className, animate = true }: HeroProps) {
         viewport={{ once: true }}
       >
         <Image
-          src="/images/hero-left.jpg"
+          src="/images/hero-left.png"
           alt="Дети занимаются в ШКоДа"
           fill
           className="object-cover"
@@ -119,7 +119,7 @@ export default function Hero({ className, animate = true }: HeroProps) {
         viewport={{ once: true }}
       >
         <Image
-          src="/images/hero-right.jpg"
+          src="/images/hero-right.png"
           alt="Ребёнок рисует в ШКоДа"
           fill
           className="object-cover"
